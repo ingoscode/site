@@ -2,7 +2,7 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
     <title>Authorization</title>
     <style>
@@ -32,7 +32,6 @@
             left: 0px;
             animation-iteration-count: infinite;
             display: block;
-
         }
 
         .nazad {
@@ -40,74 +39,97 @@
             left: 1600px;
             animation-iteration-count: infinite;
             display: none;
+        }
 
+        .dark-btn-position-auth {
+            position: absolute;
+            top: 100px;
+            left: 1200px;
         }
     </style>
+    <link href="buttons-style.css" rel="stylesheet">
+    <link href="profile_style.css" rel="stylesheet">
+    <script src="button-top.js"></script>
 </head>
 <body>
+    
 
-<div><img src="../pictures/cat_and_flag.png" width="400" height="350"></div>
+    <div class="dark-theme dark-btn-position-auth">
+        <div class="dark-text text-in-menu">Тёмная тема</div>
 
-<table class="goodback position my-flex-container">
-    <tr>
-        <td> Authorization</td>
-    </tr>
-    <tr>
+        <div class="toggle-button-cover">
 
-        <td><label for="uname"><b>Login</b></label></td>
-        <td><input type="text" placeholder="Enter Username" name="uname" required></td>
-    </tr>
+            <div class="button r" id="button-1">
+                <input type="checkbox" class="checkbox">
+                <div class="knobs"></div>
+                <div class="layer"></div>
+            </div>
 
-    <tr>
+        </div>
+    </div>
 
-        <td><label for="psw"><b>Password</b></label></td>
-        <td><input type="password" placeholder="Enter Password" name="psw" required></td>
+    <div><img src="../pictures/cat_and_flag.png" width="400" height="350"></div>
 
-    </tr>
-    <tr>
-        <td style="text-align: center"><input type="submit" value="Войти"></td>
-    </tr>
+    <table class="goodback position my-flex-container dark-change-border dark-change-background-menu dark-change-text">
+        <tr>
+            <td> Authorization</td>
+        </tr>
+        <tr>
+
+            <td><label for="uname"><b>Login</b></label></td>
+            <td><input type="text" placeholder="Enter Username" name="uname" required></td>
+        </tr>
+
+        <tr>
+
+            <td><label for="psw"><b>Password</b></label></td>
+            <td><input type="password" placeholder="Enter Password" name="psw" required></td>
+
+        </tr>
+        <tr>
+            <td style="text-align: center"><input type="submit" value="Войти"></td>
+        </tr>
 
 
-</table>
+    </table>
 
-<img src="../pictures/catletit.png" width=250 class="catletit">
-<img src="../pictures/catletitnazad.png" width=250 class="nazad">
-
-
-<script>
-    const refreshRate = 1000 / 60;
-    const maxXPosition = 1600;
-    let rect = document.querySelector('.catletit');
-    let rectn = document.querySelector('.nazad');
+    <img src="../pictures/catletit.png" width=250 class="catletit">
+    <img src="../pictures/catletitnazad.png" width=250 class="nazad">
 
 
-    let speedX = 1;
-    let positionX = 0;
+    <script>
+        const refreshRate = 1000 / 60;
+        const maxXPosition = 1600;
+        let rect = document.querySelector('.catletit');
+        let rectn = document.querySelector('.nazad');
 
-    function step() {
-        positionX = positionX + speedX;
-        if (positionX < 0) {
-            speedX = 1;
-            rectn.style.display = "none";
-            rect.style.display = "block";
+
+        let speedX = 1;
+        let positionX = 0;
+
+        function step() {
+            positionX = positionX + speedX;
+            if (positionX < 0) {
+                speedX = 1;
+                rectn.style.display = "none";
+                rect.style.display = "block";
+            }
+
+            if (positionX > maxXPosition) {
+                speedX = -1;
+                rectn.style.display = "block";
+                rect.style.display = "none";
+            }
+
+
+            rect.style.left = positionX + 'px';
+            rectn.style.left = positionX + 'px';
+
+            window.requestAnimationFrame(step);
         }
-
-        if (positionX > maxXPosition) {
-            speedX = -1;
-            rectn.style.display = "block";
-            rect.style.display = "none";
-        }
-
-
-        rect.style.left = positionX + 'px';
-        rectn.style.left = positionX + 'px';
 
         window.requestAnimationFrame(step);
-    }
-
-    window.requestAnimationFrame(step);
-</script>
+    </script>
 
 
 </body>

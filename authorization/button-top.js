@@ -19,6 +19,7 @@ window.onload = function () {
             TEXT.forEach((id) => {
                 id.style.color = "white"
             });
+            
             BORD = document.querySelectorAll(".dark-change-border");
             BORD.forEach((id) => {
                 id.style.borderColor = "white"
@@ -55,8 +56,6 @@ window.onload = function () {
 
     let dialog = document.querySelector('dialog');
     let iterator = 0;
-    document.querySelector('.menu-btn').addEventListener("mousemove", add_mini_menu);
-    document.querySelector('#close').addEventListener("click", close_mini_menu, false);
     document.querySelector('.checkbox').addEventListener("click", dark_theme)
 
 
