@@ -7,20 +7,23 @@
     <script src="scrolling.js"></script>
 
     <link rel="stylesheet" href="modal_windows.css" type="text/css">
-
+    <link href="profile_style.css" rel="stylesheet" type="text/css">
+    <link href="buttons-style.css" rel="stylesheet">
+    <script src="button-top.js"></script>
 
     <title>Main page</title>
 </head>
+
 <body>
 <div class="shapka">
-    <img src="../pictures/logofot.png" class="dbotton">
-    <p class="portalst">
+    <img src="../pictures/logofot.png" class="dbotton dark-change-background-menu">
+    <p class="portalst dark-change-text">
         <font>Портал стажера</font>
 
     </p>
     <form>
-        <input type="text" placeholder="Search...">
-        <button class="submit button-search"></button>
+        <input type="text" placeholder="Search..." class="dark-change-border">
+        <button class="submit button-search dark-change-border search-top"></button>
     </form>
 
     <img src="../pictures/catletit.png" width=250 class="catletit">
@@ -33,9 +36,34 @@
 
     <div class="accaunt-flex">
         <div class="main_profile">
-            <img class="pic_with_text_near" src="../pictures/kianu.jfif">
-            <div class="big-name">Kianu</div>
+            <a href="http://google.com">
+                <img class="pic_with_text_near1 dark-change-border" src="../pictures/kianu.jfif">
+            </a>
+            <a href="http://google.com" style="text-decoration: none;">
+                <div class="big-name1 dark-change-text">Kianu</div>
+            </a>
+            <button class="menu-btn"></button>
         </div>
+        <dialog class="mini-window-in-angle">
+            <p><a href="http://google.com" class="text-in-menu link-in-menu">Настройки</a></p>
+            <p><a href="http://google.com" class="text-in-menu link-in-menu">Выход</a></p>
+            <p>
+                <div class="dark-theme">
+                    <div class="dark-text text-in-menu">Тёмная тема</div>
+
+                    <div class="toggle-button-cover">
+
+                        <div class="button r" id="button-1">
+                            <input type="checkbox" class="checkbox">
+                            <div class="knobs"></div>
+                            <div class="layer"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </p>
+            <button id="close"><img src="../pictures/X.svg"></button>
+        </dialog>
     </div>
 
 
@@ -47,7 +75,7 @@
     </form>
 
 
-    <div class="menu">
+    <div class="menu dark-change-background-menu dark-change-text">
         <nav id="menu">
             <ul>
                 <li>Отделы</li>
@@ -71,11 +99,11 @@
 <div class="student-list id">
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif"/></a>
 
 
                     <table class="table_name_date">
@@ -95,7 +123,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста <br>
                     Много свинок Пепп <br>
@@ -181,8 +209,8 @@
                 <p></p>
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif"/></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
                     <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
                 </div>
@@ -194,11 +222,11 @@
     <hr>
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif"/></a>
 
 
                     <table class="table_name_date">
@@ -218,7 +246,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста
                 </div>
@@ -238,8 +266,8 @@
 
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif"/></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
                     <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
 
@@ -252,11 +280,11 @@
     <hr>
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
 
 
                     <table class="table_name_date">
@@ -276,7 +304,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста
                 </div>
@@ -289,17 +317,17 @@
                 <p></p>
 
                 <div class="tools">
-                    <button class="button_like"><img src="../pictures/lik.png"/></button>
-                    <button class="button_comment"><img src="../pictures/comment.png"/></button>
-                    <button class="button_share"><img src="../pictures/share.png"/></button>
+                    <button class="button_like"><img src="../pictures/lik.png" /></button>
+                    <button class="button_comment"><img src="../pictures/comment.png" /></button>
+                    <button class="button_share"><img src="../pictures/share.png" /></button>
                 </div>
 
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
-                    <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
+                    <button class="button_send position-in-button"><img src="../pictures/flight.png" /></button>
 
                 </div>
             </div>
@@ -310,11 +338,11 @@
     <hr>
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
 
 
                     <table class="table_name_date">
@@ -334,7 +362,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста
                 </div>
@@ -347,17 +375,17 @@
                 <p></p>
 
                 <div class="tools">
-                    <button class="button_like"><img src="../pictures/lik.png"/></button>
-                    <button class="button_comment"><img src="../pictures/comment.png"/></button>
-                    <button class="button_share"><img src="../pictures/share.png"/></button>
+                    <button class="button_like"><img src="../pictures/lik.png" /></button>
+                    <button class="button_comment"><img src="../pictures/comment.png" /></button>
+                    <button class="button_share"><img src="../pictures/share.png" /></button>
                 </div>
 
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
-                    <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
+                    <button class="button_send position-in-button"><img src="../pictures/flight.png" /></button>
 
                 </div>
             </div>
@@ -368,11 +396,11 @@
     <hr>
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
 
 
                     <table class="table_name_date">
@@ -392,7 +420,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста
                 </div>
@@ -405,17 +433,17 @@
                 <p></p>
 
                 <div class="tools">
-                    <button class="button_like"><img src="../pictures/lik.png"/></button>
-                    <button class="button_comment"><img src="../pictures/comment.png"/></button>
-                    <button class="button_share"><img src="../pictures/share.png"/></button>
+                    <button class="button_like"><img src="../pictures/lik.png" /></button>
+                    <button class="button_comment"><img src="../pictures/comment.png" /></button>
+                    <button class="button_share"><img src="../pictures/share.png" /></button>
                 </div>
 
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
-                    <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
+                    <button class="button_send position-in-button"><img src="../pictures/flight.png" /></button>
 
                 </div>
             </div>
@@ -426,11 +454,11 @@
     <hr>
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
 
 
                     <table class="table_name_date">
@@ -450,7 +478,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста
                 </div>
@@ -463,17 +491,17 @@
                 <p></p>
 
                 <div class="tools">
-                    <button class="button_like"><img src="../pictures/lik.png"/></button>
-                    <button class="button_comment"><img src="../pictures/comment.png"/></button>
-                    <button class="button_share"><img src="../pictures/share.png"/></button>
+                    <button class="button_like"><img src="../pictures/lik.png" /></button>
+                    <button class="button_comment"><img src="../pictures/comment.png" /></button>
+                    <button class="button_share"><img src="../pictures/share.png" /></button>
                 </div>
 
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
-                    <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
+                    <button class="button_send position-in-button"><img src="../pictures/flight.png" /></button>
 
                 </div>
             </div>
@@ -484,11 +512,11 @@
     <hr>
 
 
-    <div class=" obernut">
+    <div class=" obernut dark-change-border">
         <div class="otstup">
             <div class="Novast">
                 <div class="hat">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
 
 
                     <table class="table_name_date">
@@ -508,7 +536,7 @@
                     </table>
                 </div>
 
-                <div class="text">
+                <div class="text dark-change-text">
                     Пропал котек!!! <br>
                     Помогите пожалуйста
                 </div>
@@ -521,17 +549,17 @@
                 <p></p>
 
                 <div class="tools">
-                    <button class="button_like"><img src="../pictures/lik.png"/></button>
-                    <button class="button_comment"><img src="../pictures/comment.png"/></button>
-                    <button class="button_share"><img src="../pictures/share.png"/></button>
+                    <button class="button_like"><img src="../pictures/lik.png" /></button>
+                    <button class="button_comment"><img src="../pictures/comment.png" /></button>
+                    <button class="button_share"><img src="../pictures/share.png" /></button>
                 </div>
 
 
                 <div class="string_comment">
-                    <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-                    <input class="vvod position-in-vvod">
+                    <a href="http://google.com"><img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif" /></a>
+                    <input class="vvod position-in-vvod dark-change-border">
 
-                    <button class="button_send position-in-button"><img src="../pictures/flight.png"/></button>
+                    <button class="button_send position-in-button"><img src="../pictures/flight.png" /></button>
 
                 </div>
             </div>

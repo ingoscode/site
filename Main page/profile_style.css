@@ -1,0 +1,149 @@
+.dark-change-border {
+
+}
+
+.dark-change-font {
+
+}
+
+.dark-change-text {
+
+}
+
+.text-in-menu {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: black;
+
+}
+
+.link-in-menu {
+    text-decoration: none;
+    color: #0059b4;
+}
+
+dialog.mini-window-in-angle {
+    border-radius: 10%;
+    border: solid 3px;
+    border-color: #0059b4;
+
+}
+
+#close {
+    position: relative;
+    top: 110%;
+    left: 60%;
+}
+
+.dark-theme {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 2px black;
+    border-radius: 10%;
+    border-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-text {
+    position: relative;
+    padding: 8px;
+}
+
+.menu-btn {
+    background: url("../pictures/menu.svg") no-repeat center;
+    font-size: 16px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 20px;
+    top: 55px;
+
+}
+
+img.pic_with_text_near {
+    display: inline;
+    /*width: 150;
+    height: 150;*/
+    border: 7px #0059b4 solid;
+    border-radius: 100px;
+    padding: 3px
+}
+
+
+div.big-name {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 60px;
+    color: #0059b4;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.phil {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.main_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+div.out-block {
+    height: 900px;
+    width: 900px;
+    border: 3px solid;
+    border-color: rgba(0, 0, 256, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.text {
+    overflow: auto;
+    color: #0059b4;
+}
+
+div.text-in {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    height: 850px;
+    width: 850px;
+    font-size: 30px;
+
+}
+
+.high {
+    display: inline;
+
+}
+
+.semi-body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+
+}
+
+.department-body {
+    text-align: center;
+    border: solid 2px;
+    border-color: rgba(0, 0, 256, 0.1);
+    border-radius: 15px;
+    width: 900px;
+    height: 50px;
+}
+
+.departament-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+#menu {
+    position: fixed;
+
+}
