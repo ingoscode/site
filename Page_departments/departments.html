@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="theme-color" content="#9CC2CE">
+    <title>Отделы</title>
+    <link rel="stylesheet" href="departments.css"/>
+    <script src="scrolling.js"></script>
+</head>
+
+
+<body>
+<div class="shapka">
+    <img src="../pictures/logofot.png" class="dbotton">
+
+
+    <p class="portalst">
+        <font>Портал стажера</font>
+
+    </p>
+    <form id="search">
+        <input type="text" placeholder="Search...">
+        <button id="button-searsh" type="submit"></button>
+    </form>
+
+    <img src="../pictures/catletit.png" width=250 class="catletit">
+    <script>
+        const refreshRate = 1000 / 60;
+        const maxXPosition = 500;
+        let rect = document.querySelector('.catletit');
+        let speedX = 1;
+        let positionX = 0;
+
+        function step() {
+            positionX = positionX + speedX;
+            if (positionX > maxXPosition || positionX < 0) {
+                speedX = speedX * (-1);
+            }
+            rect.style.left = positionX + 'px';
+            window.requestAnimationFrame(step);
+        }
+
+        window.requestAnimationFrame(step);
+    </script>
+
+</div>
+<div class="accaunt-flex">
+    <div class="main_profile">
+        <img class="pic_with_text_near" src="../pictures/kianu.jfif">
+        <div class="big-name">Kianu</div>
+    </div>
+</div>
+
+
+<div class="after_hat">
+
+    <div class="corp_img">
+
+        <img class="main_picture" src="../pictures/main_picture.jpg"/>
+
+    </div>
+
+    <div class="gormenu">
+        <nav>
+            <ul id="corps_ul">
+                <li>Об отделе</li>
+                <li>FAQ</li>
+                <li>Наши кураторы</li>
+                <li>Наши стажеры</li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="image_slider">
+
+
+        <img class="middle" src="../pictures/image_slider/MGU.jpg"/>
+
+
+    </div>
+
+    <div class="news_announce">
+        <h2>Новости</h2>
+    </div>
+
+
+    <div class="Novast">
+        <div class="hat">
+            <a href="profile.html"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+            <table class="table_name_date">
+                <tr>
+                    <td>
+                        <div class="name_date">
+                            <a class="name-link" href="profile.html"><b>Kianu</b></a>
+                        </div>
+                    </td>
+                    <td class="clock">
+
+                        <p>13:58</p>
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="text">
+            Пропал котек!!! <br>
+            Помогите пожалуйста
+        </div>
+
+        <div class="icon">
+            <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/500/300"></a>
+        </div>
+        <div class="tools">
+            <button class="button_like"><img src="../pictures/lik.png"/></button>
+            <button class="button_comment"><img src="../pictures/comment.png"/></button>
+            <button class="button_share"><img src="../pictures/share.png"/></button>
+        </div>
+
+        <div class="string_comment">
+            <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
+            <input class="vvod">
+
+            <button class="button_send"><img src="../pictures/flight.png"/></button>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="menu">
+    <nav>
+        <ul>
+            <li>Отделы</li>
+            <li>Форум</li>
+            <li>Впечатления</li>
+            <li>Рабочие истории</li>
+            <li>Полезная информация</li>
+            <li>Руководство</li>
+            <li>Партнеры</li>
+            <li>Контакты</li>
+        </ul>
+    </nav>
+    <img src="../pictures/cat.png" width=270/>
+</div>
+
+
+</body>
+</html>

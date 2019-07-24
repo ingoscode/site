@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+    <title>Authorization</title>
+    <style>
+        .my-flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        table.goodback {
+            background-color: white;
+            border: solid 4px #0059b4;
+            border-radius: 5px;
+            font-family: 'Philosopher', sans-serif;
+            color: #0059b4;
+        }
+
+
+        table.position {
+            position: relative;
+            margin: 100px 500px;
+        }
+
+        .catletit {
+            position: absolute;
+            left: 0px;
+            animation-iteration-count: infinite;
+            display: block;
+
+        }
+
+        .nazad {
+            position: absolute;
+            left: 1600px;
+            animation-iteration-count: infinite;
+            display: none;
+
+        }
+    </style>
+</head>
+<body>
+
+<div><img src="../pictures/cat_and_flag.png" width="400" height="350"></div>
+
+<table class="goodback position my-flex-container">
+    <tr>
+        <td> Authorization</td>
+    </tr>
+    <tr>
+
+        <td><label for="uname"><b>Login</b></label></td>
+        <td><input type="text" placeholder="Enter Username" name="uname" required></td>
+    </tr>
+
+    <tr>
+
+        <td><label for="psw"><b>Password</b></label></td>
+        <td><input type="password" placeholder="Enter Password" name="psw" required></td>
+
+    </tr>
+    <tr>
+        <td style="text-align: center"><input type="submit" value="Войти"></td>
+    </tr>
+
+
+</table>
+
+<img src="../pictures/catletit.png" width=250 class="catletit">
+<img src="../pictures/catletitnazad.png" width=250 class="nazad">
+
+
+<script>
+    const refreshRate = 1000 / 60;
+    const maxXPosition = 1600;
+    let rect = document.querySelector('.catletit');
+    let rectn = document.querySelector('.nazad');
+
+
+    let speedX = 1;
+    let positionX = 0;
+
+    function step() {
+        positionX = positionX + speedX;
+        if (positionX < 0) {
+            speedX = 1;
+            rectn.style.display = "none";
+            rect.style.display = "block";
+        }
+
+        if (positionX > maxXPosition) {
+            speedX = -1;
+            rectn.style.display = "block";
+            rect.style.display = "none";
+        }
+
+
+        rect.style.left = positionX + 'px';
+        rectn.style.left = positionX + 'px';
+
+        window.requestAnimationFrame(step);
+    }
+
+    window.requestAnimationFrame(step);
+</script>
+
+
+</body>
+</html>

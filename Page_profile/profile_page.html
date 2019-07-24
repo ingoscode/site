@@ -1,0 +1,354 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&amp;display=swap" rel="stylesheet">
+    <script src="scrolling.js"></script>
+    <style>
+        .shapka {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .dbotton {
+            background: white;
+            border: none;
+            wight: 700px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .ramka {
+            display: inline-block;
+            background: white;
+            border: solid 2px #0059b4;
+            padding-box: 5px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 2.2rem;
+            text-align: center;
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        .portalst {
+            position: absolute;
+            margin: 100px 100px;
+            font-family: 'Philosopher', sans-serif;
+            font-size: 20;
+            color: #0059b4;
+        }
+
+        img.pic_with_text_near {
+            display: inline;
+            width: 60;
+            height: 60;
+            border: 4px #0059b4 solid;
+            border-radius: 5px;
+            padding: 1px
+        }
+
+        table.table_name_date {
+            display: inline;
+        }
+
+        div.name_date {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 30;
+            color: #0059b4;
+        }
+
+        .accaunt-flex {
+            position: absolute;
+            /*margin: 10px 800px; */
+            left: 1600px;
+            top: 30px;
+        }
+
+        img.pic_with_text_near1 {
+            display: inline;
+            width: 100px;
+            height: 100px;
+            border: 3px #0059b4 solid;
+            border-radius: 100px;
+            padding: 3px;
+        }
+
+
+        div.big-name1 {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 40px;
+            color: #0059b4;
+            position: relative;
+            top: 40px;
+            left: 15px;
+        }
+
+        .phil {
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        .main_profile {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        form {
+            position: absolute;
+            width: 300px;
+            left: 900px;
+            top: 50px;
+            /*   margin: 10px 400px; */
+        }
+
+        input {
+            width: 100%;
+            height: 42px;
+            padding-left: 10px;
+            border: 4px solid #0059b4;
+            border-radius: 5px;
+            outline: none;
+            background: white;
+            color: #9E9C9C;
+        }
+
+        button.search-top {
+            position: absolute;
+            top: 0;
+            right: 0px;
+            width: 42px;
+            height: 42px;
+            border: 4px solid #0059b4;
+            border-radius: 5px;
+            background: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        button.search-top:before {
+            content: url("../pictures/lupa.png");
+            font-size: 16px;
+            color: white;
+        }
+    </style>
+    <style>
+
+
+        .menu, .menu * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        .menu {
+            position: absolute;
+            background: white;
+            /*margin: 200px -800px;*/
+            top: 200px;
+            font-family: 'Philosopher', sans-serif;
+            font-size: 30;
+            color: #0059b4;
+            cursor: pointer;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+
+        .menu ul li {
+            margin: 5px 50px;
+            padding: 5px;
+        }
+
+        .menu ul li:hover {
+            background: #0059b4;
+            color: white;
+        }
+
+        .menu.shrift {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 30;
+            color: Blue;
+        }
+
+
+        .information {
+            position: absolute;
+            left: 500px;
+            top: 200px;
+        }
+
+        .catletit {
+            position: absolute;
+            left: 0px;
+            animation-iteration-count: infinite;
+            display: block;
+        }
+
+        .nazad {
+            position: absolute;
+            left: 650px;
+            animation-iteration-count: infinite;
+            display: none;
+        }
+    </style>
+
+    <title>PROFILE</title>
+
+    <link href="profile_style.css" rel="stylesheet">
+    <link href="buttons-style.css" rel="stylesheet">
+    <script src="button-top.js"></script>
+
+</head>
+<body>
+<div class="shapka">
+    <img src="../pictures/logofot.png " class="dbotton dark-change-background-menu">
+    <p class="portalst dark-change-text">
+        <font>Портал стажера</font>
+
+    </p>
+    <form>
+        <input type="text" placeholder="Search..." class="dark-change-border">
+        <button class="search-top dark-change-border" type="submit"></button>
+    </form>
+
+    <img src="../pictures/catletit.png" width=250 class="catletit">
+    <img src="../pictures/catletitnazad.png" width=250 class="nazad">
+    <script src="../script/catlet.js"></script>
+
+
+    <div class="accaunt-flex">
+        <div class="main_profile">
+            <a href="http://google.com">
+                <img class="pic_with_text_near1 dark-change-border" src="../pictures/kianu.jfif">
+            </a>
+            <a href="http://google.com" style="text-decoration: none;">
+                <div class="big-name1 dark-change-text">Kianu</div>
+            </a>
+            <button class="menu-btn"></button>
+        </div>
+        <dialog class="mini-window-in-angle">
+            <p><a href="http://google.com" class="text-in-menu link-in-menu">Настройки</a></p>
+            <p><a href="http://google.com" class="text-in-menu link-in-menu">Выход</a></p>
+            <p>
+            <div class="dark-theme">
+                <div class="dark-text text-in-menu">Тёмная тема</div>
+
+                <div class="toggle-button-cover">
+
+                    <div class="button r" id="button-1">
+                        <input type="checkbox" class="checkbox">
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+
+                </div>
+            </div>
+            </p>
+            <button id="close"><img src="../pictures/X.svg"></button>
+        </dialog>
+    </div>
+    <div class="menu dark-change-background-menu dark-change-text">
+        <nav id="menu">
+
+            <ul>
+                <li>Отделы</li>
+                <li>Форум</li>
+                <li>Впечатления</li>
+                <li>Рабочие истории</li>
+                <li>Полезная информация</li>
+                <li>Руководство</li>
+                <li>Партнеры</li>
+                <li>Контакты</li>
+                <img src="../pictures/cat.png" width=270/>
+            </ul>
+        </nav>
+
+    </div>
+</div>
+<div class="information">
+    <div class="semi-body">
+
+        <div class="main_profile">
+            <img class="pic_with_text_near dark-change-border" src="../pictures/kianu.jfif"/>
+            <div class="big-name dark-change-text"><b>Kianu Reeves</b></div>
+        </div>
+
+        <p>
+
+        <div class="department-body">
+            <div class="text phil departament-text dark-change-text"
+            ">
+            IT ОТДЕЛ
+        </div>
+    </div>
+    <p>
+    <p>
+
+    <div class="out-block">
+        <div class="text text-in phil dark-change-text">
+            <h4 class="high">ТЕЛЕФОН:</h4>
+            +712319458
+            <br/>
+            <h4 class="high">Семейное положение:</h4>
+            Женат
+            <br/>
+            <h4 class="high">О себе:</h4>
+            Султан ярится. Кровь Эллады
+            И peзвocкачет, и кипит.
+            Открылись грекам древни клады,
+            Трепещет в Стиксе лютый Пит.
+            И се — летит продерзко судно
+            И мещет громы обоюдно.
+            Се Бейрон, Феба образец.
+            Притек, но недуг быстропарный,
+            Строптивый и неблагодарный
+            Взнес смерти на него резец.
+
+            Певец бессмертный и маститый,
+            Тебя Эллада днесь зовет
+            На место тени знаменитой,
+            Пред коей Цербер днесь ревет.
+            Как здесь, ты будешь там сенатор,
+            Как здесь, почтенный литератор,
+            Но новый лавр тебя ждет там,
+            Где от крови земля промокла:
+            Перикла лавр, лавр Фемистокла;
+            Лети туда, Хвостов наш! сам.
+
+            Вам с Бейроном шипела злоба,
+            Гремела и правдива лесть.
+            Он лорд — граф ты! Поэты оба!
+            Се, мнится, явно сходство есть. —
+            Никак! Ты с верною супругой6
+            Под бременем Судьбы упругой
+            Живешь в любви — и наконец
+            Глубок он, но единобразен,
+            А ты глубок, игрив и разен,
+            И в шалостях ты впрям певец.
+
+            А я, неведомый Пиита,
+            В восторге новом воспою
+            Во след Пиита знаменита
+            Правдиву похвалу свою,
+            Моляся кораблю бегущу,
+            Да Бейрона он узрит кущу,
+            И да блюдут твой мирный сон
+            Нептун, Плутон, Зевс, Цитерея,
+            Гебея, Псиша, Крон, Астрея,
+            Феб, Игры, Смехи, Вакх, Харон.
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,380 @@
+.tools button {
+
+}
+
+.icon img {
+
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.text {
+    padding-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 440px;
+}
+
+.Novast {
+    font-family: 'Philosopher', sans-serif;
+    padding: 20px;
+    border-radius: 30px;
+    border: solid 2px black;
+    width: 500px;
+    height: 450px;
+    padding-bottom: 30px;
+}
+
+.tools {
+    margin: 10px;
+}
+
+img.pic_with_text_near {
+    display: inline;
+    width: 20;
+    height: 20;
+    border: 2px green solid;
+    border-radius: 20px;
+    margin-left: 15px
+}
+
+table.table_name_date {
+    display: inline;
+}
+
+div.name_date {
+    font-size: 15;
+    color: Blue;
+}
+
+button.bird {
+    display: inline;
+    background-color: red;
+}
+
+a.name-link {
+    color: blue;
+    text-decoration: none;
+}
+
+a.name-link:visited {
+    color: black;
+}
+
+a.name-link:hover {
+    color: blue;
+}
+
+.hat {
+    margin-left: 15px;
+}
+
+.button_like {
+    border: none;
+
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.button_like:hover {
+    background-color: RoyalBlue;
+}
+
+.button_comment {
+    border: none;
+
+}
+
+.button_comment:hover {
+    background: RoyalBlue;
+}
+
+.button_share {
+    border: none;
+
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.button_share:hover {
+    background-color: RoyalBlue;
+}
+
+.clock {
+    font-size: 70%;
+    padding-left: 20px;
+}
+
+.vvod {
+    border-radius: 10px;
+    margin-top: -10px;
+    width: 390px;
+}
+
+.button_send {
+    border: none;
+    position: relative;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.button_send:hover {
+    background-color: RoyalBlue;
+}
+
+div.post {
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 2px black;
+    width: 500px;
+    height: 90px;
+    padding-bottom: 30px;
+}
+
+.string {
+    display: flex;
+    justify-content: row;
+}
+
+.text-near-face {
+    margin-left: 10px;
+    width: 300px;
+}
+
+.student-list {
+    margin-top: 150px;
+    margin-left: 760px;
+    width: 450px;
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+.student-search {
+    width: 350px;
+}
+
+.search {
+    margin-bottom: 50px;
+}
+
+.parsing {
+
+    display: flex;
+    justify-content: row;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.about-students {
+    margin-top: 3px;
+    border-radius: 10px;
+    border: 4px solid #0059b4;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.id {
+    display: flex;
+    justify-content: row;
+}
+
+
+.menu, .menu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.menu {
+    position: fixed;
+    margin-left: 1px;
+    background: white;
+    /*margin: 200px -800px;*/
+    top: 200px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30;
+    color: #0059b4;
+    cursor: pointer;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.menu ul li {
+    margin: 5px 50px;
+    padding: 5px;
+}
+
+.menu ul li:hover {
+    background: #0059b4;
+    color: white;
+}
+
+.menu.shrift {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30;
+    color: Blue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    position: absolute;
+    width: 300px;
+    left: 900px;
+    top: 50px;
+    /*   margin: 10px 400px; */
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 4px solid #0059b4;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    color: #9E9C9C;
+}
+
+.shapka button {
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: 4px solid #0059b4;
+    border-radius: 5px;
+    background: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+
+}
+
+
+.shapka {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dbotton {
+    background: white;
+    border: none;
+    wight: 700px;
+    height: 100px;
+    position: absolute;
+}
+
+.ramka {
+    display: inline-block;
+    background: white;
+    border: solid 2px #0059b4;
+    padding-box: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.portalst {
+    position: absolute;
+    margin: 100px 100px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20;
+    color: #0059b4;
+}
+
+img.pic_with_text_near {
+    display: inline;
+    width: 60;
+    height: 60;
+    border: 4px #0059b4 solid;
+    border-radius: 5px;
+    padding: 1px
+}
+
+table.table_name_date {
+    display: inline;
+}
+
+div.name_date {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30;
+    color: #0059b4;
+}
+
+.accaunt-flex {
+    position: absolute;
+    /*margin: 10px 800px; */
+    left: 1600px;
+    top: 30px;
+}
+
+img.pic_with_text_near {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 3px #0059b4 solid;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+
+div.big-name {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #0059b4;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.phil {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.main_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-button {
+    position: absolute;
+}
+
+
+.search-button:before {
+    content: url("../pictures/lupa.png");
+    font-size: 16px;
+    color: white;
+}
+
+.button_settings {
+    top: 10px;
+}
+
+.catletit {
+    position: absolute;
+    left: 0px;
+    animation-iteration-count: infinite;
+    display: block;
+
+}
+
+.nazad {
+    position: absolute;
+    left: 650px;
+    animation-iteration-count: infinite;
+    display: none;
+
+}
