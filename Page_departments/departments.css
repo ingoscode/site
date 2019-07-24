@@ -260,14 +260,13 @@ button.left:hover {
 
 .Novast {
     font-family: 'Philosopher', sans-serif;
-    padding: 20px;
+    padding: 20px 20px 30px 20px;
     border-radius: 30px;
     border: solid 2px black;
     width: 500px;
     height: 500px;
     margin-top: 20px;
     margin-left: 15px;
-    padding-bottom: 30px;
     position: relative;
     left: 11px;
 }
@@ -387,12 +386,12 @@ string_comment.button_send {
 }
 
 div.post {
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     border-radius: 30px;
     border: solid 2px black;
     width: 500px;
     height: 90px;
-    padding-bottom: 30px;
+
 }
 
 
@@ -409,6 +408,7 @@ div.post {
     top: 200px;
     font-family: 'Philosopher', sans-serif;
     color: #0059b4;
+    font-size: 30px;
 }
 
 #menu ul {
@@ -430,7 +430,7 @@ div.post {
 
 #menu.shrift {
     font-family: 'Philosopher', sans-serif;
-
+    font-size: 30px;
     color: #0059b4;
 }
 
@@ -447,7 +447,7 @@ div.post {
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: 'Philosopher', sans-serif;
-
+    font-size: 30px;
     color: #0059b4;
     border: 3px solid #0059b4;
     border-radius: 0px 0px 7px 7px;
@@ -473,7 +473,7 @@ div.post {
 
 .gormenu.shrift {
     font-family: 'Philosopher', sans-serif;
-
+    font-size: 30px;
     color: #0059b4;
 }
 
