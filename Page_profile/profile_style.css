@@ -12,7 +12,7 @@
 
 .text-in-menu {
     font-family: 'Philosopher', sans-serif;
-    font-size: 30;
+    font-size: 30px;
     color: black;
 
 }
@@ -63,8 +63,8 @@ dialog.mini-window-in-angle {
 
 img.pic_with_text_near {
     display: inline;
-    width: 150;
-    height: 150;
+    /*width: 150;
+    height: 150;*/
     border: 7px #0059b4 solid;
     border-radius: 100px;
     padding: 3px
@@ -73,7 +73,7 @@ img.pic_with_text_near {
 
 div.big-name {
     font-family: 'Philosopher', sans-serif;
-    font-size: 60;
+    font-size: 60px;
     color: #0059b4;
     position: relative;
     top: 100px;

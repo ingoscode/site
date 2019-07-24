@@ -56,7 +56,7 @@ table.table_name_date {
 
 div.name_date {
     font-family: 'Philosopher', sans-serif;
-    font-size: 30;
+    font-size: 30px;
     color: #0059b4;
 }
 
@@ -301,7 +301,7 @@ table.table_name_date {
 }
 
 div.name_date {
-    font-size: 15;
+    font-size: 15px;
     color: #0059b4;
 }
 

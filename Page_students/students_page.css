@@ -32,8 +32,8 @@
 
 img.pic_with_text_near {
     display: inline;
-    width: 20;
-    height: 20;
+    /*width: 20;
+    height: 20;*/
     border: 2px green solid;
     border-radius: 20px;
     margin-left: 15px
@@ -44,7 +44,7 @@ table.table_name_date {
 }
 
 div.name_date {
-    font-size: 15;
+    font-size: 15px;
     color: Blue;
 }
 
@@ -134,7 +134,7 @@ div.post {
 
 .string {
     display: flex;
-    justify-content: row;
+
 }
 
 .text-near-face {
@@ -161,7 +161,7 @@ div.post {
 .parsing {
 
     display: flex;
-    justify-content: row;
+
     height: 40px;
     margin-bottom: 40px;
 }
@@ -177,7 +177,7 @@ div.post {
 
 .id {
     display: flex;
-    justify-content: row;
+
 }
 
 
@@ -194,7 +194,7 @@ div.post {
     /*margin: 200px -800px;*/
     top: 200px;
     font-family: 'Philosopher', sans-serif;
-    font-size: 30;
+    font-size: 30px;
     color: #0059b4;
     cursor: pointer;
 
@@ -204,7 +204,7 @@ div.post {
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    /*align-items: left;*/
 }
 
 .menu ul li {
@@ -219,7 +219,7 @@ div.post {
 
 .menu.shrift {
     font-family: 'Philosopher', sans-serif;
-    font-size: 30;
+    font-size: 30px;
     color: Blue;
 }
 
@@ -269,9 +269,9 @@ input {
 .dbotton {
     background: white;
     border: none;
-    wight: 700px;
+    width: 700px;
     height: 100px;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .ramka {
@@ -290,14 +290,14 @@ input {
     position: absolute;
     margin: 100px 100px;
     font-family: 'Philosopher', sans-serif;
-    font-size: 20;
+    font-size: 20px;
     color: #0059b4;
 }
 
 img.pic_with_text_near {
     display: inline;
-    width: 60;
-    height: 60;
+    /*width: 60;
+    height: 60;*/
     border: 4px #0059b4 solid;
     border-radius: 5px;
     padding: 1px
@@ -309,7 +309,7 @@ table.table_name_date {
 
 div.name_date {
     font-family: 'Philosopher', sans-serif;
-    font-size: 30;
+    font-size: 30px;
     color: #0059b4;
 }
 
