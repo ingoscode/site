@@ -1,81 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1d0cba-6ca5-4fbe-9954-8a27af1c4cc2" name="Default Changelist" comment="'full'">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main page/main page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main page/modal_windows.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main page/modal_windows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main page/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main page/style_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_departments/dep.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_departments/departments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_departments/departments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_departments/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_profile/button-top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_profile/buttons-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_profile/profile_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_profile/profile_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_profile/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_profile/top-angle-buton-stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_students/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_students/students_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page_students/students_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization/authorization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/log_calend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/log_menugor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/log_prosto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/5.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/6.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/7.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/cat_and_flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/cat_rocket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/flight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/itemContent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/kianu.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/lik.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/logofot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/lupa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/5.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/6.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/7.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/X.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/baseline_share_black_18dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/cat_and_flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/catletit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/catletitnazad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/flight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/ing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/kianu.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/lik.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/logofot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/lupa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/catlet.js" afterDir="false" />
+    <list default="true" id="ff1d0cba-6ca5-4fbe-9954-8a27af1c4cc2" name="Default Changelist" comment="'evening_update1'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_departments/dep.html" beforeDir="false" />
     </list>
     <ignored path="git/Students%20Project%203/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +18,84 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page_students/students_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="1845">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header/animation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header/log_calend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header/log_menugor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page_profile/profile_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2355">
+              <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page_profile/profile_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page_students/students_page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4665">
+              <caret line="311" column="19" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main page/style_main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3225">
+              <caret line="215" column="15" selection-start-line="215" selection-start-column="15" selection-end-line="215" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page_departments/departments.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4545">
+              <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -114,6 +114,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Page_students/students_page.html" />
+        <option value="$PROJECT_DIR$/header/animation.html" />
+        <option value="$PROJECT_DIR$/header/log_calend.html" />
+        <option value="$PROJECT_DIR$/header/log_menugor.html" />
+        <option value="$PROJECT_DIR$/Page_profile/profile_style.css" />
+        <option value="$PROJECT_DIR$/Page_students/students_page.css" />
+        <option value="$PROJECT_DIR$/Main page/style_main.css" />
+        <option value="$PROJECT_DIR$/Page_departments/departments.css" />
+        <option value="$PROJECT_DIR$/Page_profile/profile_page.html" />
       </list>
     </option>
   </component>
@@ -146,8 +154,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,26 +186,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563988821552</updated>
-      <workItem from="1563988825177" duration="745000" />
+      <workItem from="1563988825177" duration="2823000" />
+      <workItem from="1563993318712" duration="22000" />
     </task>
+    <task id="LOCAL-00001" summary="'full'">
+      <created>1563989637596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563989637597</updated>
+    </task>
+    <task id="LOCAL-00002" summary="'evening_update'">
+      <created>1563993145042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563993145042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="745000" />
+    <option name="totallyTimeSpent" value="2845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -198,24 +222,93 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924242" visible="true" weight="0.3284553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/git/Students%20Project%203" />
+    </ignored-roots>
     <MESSAGE value="'full'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'full'" />
+    <MESSAGE value="'evening_update'" />
+    <MESSAGE value="'evening_update1'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'evening_update1'" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Page_students/students_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="1845">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header/log_calend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header/log_menugor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page_profile/profile_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page_profile/profile_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page_students/students_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4665">
+          <caret line="311" column="19" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main page/style_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="215" column="15" selection-start-line="215" selection-start-column="15" selection-end-line="215" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page_departments/departments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4545">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header/animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
         </state>
       </provider>
     </entry>
