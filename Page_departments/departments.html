@@ -31,14 +31,35 @@
     </form>
 
     <img src="../pictures/catletit.png" width=250 class="catletit">
+<<<<<<< HEAD
     <img src="../pictures/catletitnazad.png" width=250 class="nazad">
 
     <script src="../script/catlet.js">
 
+=======
+    <script>
+
+        const maxXPosition = 500;
+        let rect = document.querySelector('.catletit');
+        let speedX = 1;
+        let positionX = 0;
+
+        function step() {
+            positionX = positionX + speedX;
+            if (positionX > maxXPosition || positionX < 0) {
+                speedX = speedX * (-1);
+            }
+            rect.style.left = positionX + 'px';
+            window.requestAnimationFrame(step);
+        }
+
+        window.requestAnimationFrame(step);
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
     </script>
 
 </div>
 <div class="accaunt-flex">
+<<<<<<< HEAD
         <div class="main_profile">
             <a href="http://google.com">
                 <img class="pic_with_text_near1 dark-change-border" src="../pictures/kianu.jfif">
@@ -68,6 +89,13 @@
             </p>
             <button id="close"><img src="../pictures/X.svg"></button>
         </dialog>
+=======
+    <div class="main_profile">
+        <a href="../Page_profile/profile_page.html"> <img class="pic_with_text_near" src="../pictures/kianu.jfif"> </a>
+        <a href="../Page_profile/profile_page.html">
+            <div class="big-name">Kianu</div>
+        </a>
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
     </div>
 
 
@@ -157,15 +185,25 @@
     </div>
 
     <div class="news-list">
+<<<<<<< HEAD
         <div class="Novast dark-change-border">
             <div class="hat">
                 <a href="../Page_profile/profile_page.html"><img class="pic_with_text_near dark-change-border"
+=======
+        <div class="Novast">
+            <div class="hat">
+                <a href="../Page_profile/profile_page.html"><img class="pic_with_text_near"
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
                                                                  src="../pictures/kianu.jfif"/></a>
                 <table class="table_name_date">
                     <tr>
                         <td>
                             <div class="name_date">
+<<<<<<< HEAD
                                 <a class="name-link" href="../Page_profile/profile_page.html"><b class="dark-change-text">Kianu</b></a>
+=======
+                                <a class="name-link" href="../Page_profile/profile_page.html"><b>Kianu</b></a>
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
                             </div>
                         </td>
                         <td class="clock">
@@ -178,6 +216,7 @@
                 </table>
             </div>
 
+<<<<<<< HEAD
             <div class="text dark-change-text">
 				Как умеет любить хулиган<br>
 				<span class="dots">...</span><span class="more">
@@ -212,6 +251,11 @@
 				В первый раз отрекаюсь скандалить.
 				</span></p>
 							  <button class="myBtn">Read more</button>
+=======
+            <div class="text">
+                Пропал котек!!! <br>
+                Помогите пожалуйста
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
             </div>
 
             <div class="icon">
@@ -224,9 +268,15 @@
             </div>
 
             <div class="string_comment">
+<<<<<<< HEAD
                 <a href="../Page_profile/profile_page.html"><img class="pic_with_text_near dark-change-border	"
                                                                  src="../pictures/kianu.jfif"/></a>
                 <input class="vvod dark-change-border">
+=======
+                <a href="../Page_profile/profile_page.html"><img class="pic_with_text_near"
+                                                                 src="../pictures/kianu.jfif"/></a>
+                <input class="vvod">
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
 
                 <button class="button_send"><img src="../pictures/flight.png"/></button>
             </div>
@@ -257,6 +307,7 @@
         <img id="modal-image" src="ric.jpg">
     </div>
 </div>
+<<<<<<< HEAD
 <div class= 'up-button'>
 	<img src = '../pictures/up.svg'>
 </div>
@@ -266,5 +317,9 @@
 <script src="gallery.js"></script>
 <script src="../script/readmore.js"></script> 
 
+=======
+<script src="modal_windows.js"></script>
+<script src="gallery.js"></script>
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
 </body>
 </html>

@@ -372,6 +372,7 @@ a.name-link:hover {
 .string_comment {
     position: relative;
 	margin-bottom: 20px;
+
 }
 
 string_comment.button_send {
@@ -494,6 +495,7 @@ div.post {
 
 }
 
+<<<<<<< HEAD
 .nazad {
     position: absolute;
     left: 650px;
@@ -533,3 +535,7 @@ div.post {
 >>>>>>> 32910290454e5610b32b597b89bf1e5d3510e5f7
 
 }
+=======
+}
+
+>>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8
