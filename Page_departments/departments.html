@@ -1,67 +1,85 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ru">
 <head>
     <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&amp;display=swap" rel="stylesheet">
     <meta name="theme-color" content="#9CC2CE">
     <title>Отделы</title>
-    <link rel="stylesheet" href="departments.css"/>
+    <link rel="stylesheet" href="departments.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="modal_windows.css" />
     <script src="scrolling.js"></script>
+	<link href="profile_style.css" rel="stylesheet">
+    <link href="buttons-style.css" rel="stylesheet">
+    <script src="button-top.js"></script>	
 </head>
 
 
 <body>
 <div class="shapka">
-    <img src="../pictures/logofot.png" class="dbotton">
+    <img src="../pictures/logofot.png" class="dbotton dark-change-background-menu">
 
 
-    <p class="portalst">
+    <p class="portalst dark-change-text">
         <font>Портал стажера</font>
 
     </p>
     <form id="search">
-        <input type="text" placeholder="Search...">
-        <button id="button-searsh" type="submit"></button>
+        <input type="text" placeholder="Search..." class="dark-change-border">
+        <button id="button-searsh" class="dark-change-border" type="submit"></button>
     </form>
 
     <img src="../pictures/catletit.png" width=250 class="catletit">
-    <script>
-        const refreshRate = 1000 / 60;
-        const maxXPosition = 500;
-        let rect = document.querySelector('.catletit');
-        let speedX = 1;
-        let positionX = 0;
+    <img src="../pictures/catletitnazad.png" width=250 class="nazad">
 
-        function step() {
-            positionX = positionX + speedX;
-            if (positionX > maxXPosition || positionX < 0) {
-                speedX = speedX * (-1);
-            }
-            rect.style.left = positionX + 'px';
-            window.requestAnimationFrame(step);
-        }
+    <script src="../script/catlet.js">
 
-        window.requestAnimationFrame(step);
     </script>
 
 </div>
 <div class="accaunt-flex">
-    <div class="main_profile">
-        <img class="pic_with_text_near" src="../pictures/kianu.jfif">
-        <div class="big-name">Kianu</div>
+        <div class="main_profile">
+            <a href="http://google.com">
+                <img class="pic_with_text_near1 dark-change-border" src="../pictures/kianu.jfif">
+            </a>
+            <a href="http://google.com" style="text-decoration: none;">
+                <div class="big-name1 dark-change-text">Kianu</div>
+            </a>
+            <button class="menu-btn"></button>
+        </div>
+        <dialog class="mini-window-in-angle">
+            <p><a href="http://google.com" class="text-in-menu link-in-menu">Настройки</a></p>
+            <p><a href="http://google.com" class="text-in-menu link-in-menu">Выход</a></p>
+            <p>
+            <div class="dark-theme">
+                <div class="dark-text text-in-menu">Тёмная тема</div>
+
+                <div class="toggle-button-cover">
+
+                    <div class="button r" id="button-1">
+                        <input type="checkbox" class="checkbox">
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+
+                </div>
+            </div>
+            </p>
+            <button id="close"><img src="../pictures/X.svg"></button>
+        </dialog>
     </div>
-</div>
 
 
 <div class="after_hat">
 
     <div class="corp_img">
 
-        <img class="main_picture" src="../pictures/main_picture.jpg"/>
+        <img class="main_picture" src="../pictures/2.jfif"/>
 
     </div>
 
-    <div class="gormenu">
+    <div class="gormenu dark-change-background-menu dark-change-text dark-change-border">
         <nav>
             <ul id="corps_ul">
                 <li>Об отделе</li>
@@ -74,67 +92,154 @@
 
 
     <div class="image_slider">
+        <div class="container">
+            <div class="mySlides ">
 
+                <img src="../pictures/1.jfif" class="open-modal" style="width:80%">
+            </div>
 
-        <img class="middle" src="../pictures/image_slider/MGU.jpg"/>
+            <div class="mySlides ">
 
+                <img src="../pictures/2.jfif" class="open-modal" style="width:80%">
+            </div>
 
+            <div class="mySlides ">
+
+                <img src="../pictures/3.jfif" class="open-modal" style="width:80%">
+            </div>
+
+            <div class="mySlides ">
+                <img src="../pictures/4.jfif" class="open-modal" style="width:80%">
+            </div>
+
+            <div class="mySlides ">
+                <img src="../pictures/5.jfif" class="open-modal" style="width:80%">
+            </div>
+
+            <div class="mySlides ">
+                <img src="../pictures/6.jfif" class="open-modal" style="width:80%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor open-modal" src="../pictures/1.jfif" style="width:50%"
+                         onclick="currentSlide(1)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor open-modal" src="../pictures/2.jfif" style="width:50%"
+                         onclick="currentSlide(2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor open-modal" src="../pictures/3.jfif" style="width:50%"
+                         onclick="currentSlide(3)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor open-modal" src="../pictures/4.jfif" style="width:50%"
+                         onclick="currentSlide(4)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor open-modal" src="../pictures/5.jfif" style="width:50%"
+                         onclick="currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor open-modal" src="../pictures/6.jfif" style="width:50%"
+                         onclick="currentSlide(6)">
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="news_announce">
         <h2>Новости</h2>
     </div>
 
+    <div class="news-list">
+        <div class="Novast dark-change-border">
+            <div class="hat">
+                <a href="../Page_profile/profile_page.html"><img class="pic_with_text_near dark-change-border"
+                                                                 src="../pictures/kianu.jfif"/></a>
+                <table class="table_name_date">
+                    <tr>
+                        <td>
+                            <div class="name_date">
+                                <a class="name-link" href="../Page_profile/profile_page.html"><b class="dark-change-text">Kianu</b></a>
+                            </div>
+                        </td>
+                        <td class="clock">
 
-    <div class="Novast">
-        <div class="hat">
-            <a href="profile.html"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-            <table class="table_name_date">
-                <tr>
-                    <td>
-                        <div class="name_date">
-                            <a class="name-link" href="profile.html"><b>Kianu</b></a>
-                        </div>
-                    </td>
-                    <td class="clock">
+                            <p>13:58</p>
 
-                        <p>13:58</p>
+                        </td>
+                    </tr>
 
-                    </td>
-                </tr>
+                </table>
+            </div>
 
-            </table>
+            <div class="text dark-change-text">
+				Как умеет любить хулиган<br>
+				<span class="dots">...</span><span class="more">
+				Заметался пожар голубой,
+				Позабылись родимые дали.
+				В первый раз я запел про любовь,
+				В первый раз отрекаюсь скандалить.
+
+				Был я весь — как запущенный сад,
+				Был на женщин и зелие падкий.
+				Разонравилось пить и плясать
+				И терять свою жизнь без оглядки.
+
+				Мне бы только смотреть на тебя,
+				Видеть глаз злато-карий омут,
+				И чтоб, прошлое не любя,
+				Ты уйти не смогла к другому.
+
+				Поступь нежная, легкий стан,
+				Если б знала ты сердцем упорным,
+				Как умеет любить хулиган,
+				Как умеет он быть покорным.
+
+				Я б навеки забыл кабаки
+				И стихи бы писать забросил.
+				Только б тонко касаться руки
+				И волос твоих цветом в осень.
+
+				Я б навеки пошел за тобой
+				Хоть в свои, хоть в чужие дали…
+				В первый раз я запел про любовь,
+				В первый раз отрекаюсь скандалить.
+				</span></p>
+							  <button class="myBtn">Read more</button>
+            </div>
+
+            <div class="icon">
+                <img src="http://placekitten.com/500/300" class="open-modal">
+            </div>
+            <div class="tools">
+                <button class="button_like"><img src="../pictures/lik.png"/></button>
+                <button class="button_comment"><img src="../pictures/comment.png"/></button>
+                <button class="button_share"><img src="../pictures/share.png"/></button>
+            </div>
+
+            <div class="string_comment">
+                <a href="../Page_profile/profile_page.html"><img class="pic_with_text_near dark-change-border	"
+                                                                 src="../pictures/kianu.jfif"/></a>
+                <input class="vvod dark-change-border">
+
+                <button class="button_send"><img src="../pictures/flight.png"/></button>
+            </div>
+
         </div>
-
-        <div class="text">
-            Пропал котек!!! <br>
-            Помогите пожалуйста
-        </div>
-
-        <div class="icon">
-            <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/500/300"></a>
-        </div>
-        <div class="tools">
-            <button class="button_like"><img src="../pictures/lik.png"/></button>
-            <button class="button_comment"><img src="../pictures/comment.png"/></button>
-            <button class="button_share"><img src="../pictures/share.png"/></button>
-        </div>
-
-        <div class="string_comment">
-            <a href="http://google.com"><img class="pic_with_text_near" src="../pictures/kianu.jfif"/></a>
-            <input class="vvod">
-
-            <button class="button_send"><img src="../pictures/flight.png"/></button>
-        </div>
-
     </div>
 </div>
 
 
-<div id="menu">
+<div id="menu" class="dark-change-background-menu dark-change-text">
     <nav>
         <ul>
-            <li>Отделы</li>
+            <li><a href="departments.html"> Отделы</a></li>
             <li>Форум</li>
             <li>Впечатления</li>
             <li>Рабочие истории</li>
@@ -146,7 +251,20 @@
     </nav>
     <img src="../pictures/cat.png" width=270/>
 </div>
-
+<div class="modal">
+    <div class="close-button">Close</div>
+    <div class="modal-content">
+        <img id="modal-image" src="ric.jpg">
+    </div>
+</div>
+<div class= 'up-button'>
+	<img src = '../pictures/up.svg'>
+</div>
+<script src="upButton.js">
+</script>
+<script src="modal_windows.js"></script>
+<script src="gallery.js"></script>
+<script src="../script/readmore.js"></script> 
 
 </body>
 </html>

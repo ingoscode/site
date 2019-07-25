@@ -1,3 +1,8 @@
+.search-big
+{
+	display: flex;
+	flex-direction:row;
+}
 .tools button {
 
 }
@@ -143,8 +148,10 @@ div.post {
 }
 
 .student-list {
-    margin-top: 150px;
-    margin-left: 760px;
+	position: absolute;
+	top: 250px;
+	left: 700px;
+	
     width: 450px;
     font-family: 'Philosopher', sans-serif;
 
@@ -152,6 +159,7 @@ div.post {
 
 .student-search {
     width: 350px;
+	
 }
 
 .search {
@@ -170,9 +178,10 @@ div.post {
     margin-top: 3px;
     border-radius: 10px;
     border: 4px solid #0059b4;
-    width: 320px;
+    width: 350px;
     height: 40px;
     margin-bottom: 10px;
+	padding-top:5px;
 }
 
 .id {
@@ -246,9 +255,8 @@ input {
     color: #9E9C9C;
 }
 
-.shapka button {
+button.all-students-page {
     top: 0;
-    right: 0px;
     width: 42px;
     height: 42px;
     border: 4px solid #0059b4;
@@ -256,6 +264,7 @@ input {
     background: white;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+	background-image: url("../images")
 
 }
 
@@ -377,4 +386,20 @@ div.big-name {
     animation-iteration-count: infinite;
     display: none;
 
+}
+.up-button{
+	border-radius:30px;
+	width:26px;
+	height:26px;
+	position:fixed;
+	top:90vh;
+	left:95vw;
+	background-color:#bbbbbb;
+	opacity:0.2;
+}
+.up-button:hover{
+	opacity:0.5;
+}
+.up-button:active{
+	opacity:0.7;
 }

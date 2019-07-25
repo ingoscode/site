@@ -5,6 +5,8 @@
     let modalImg = document.getElementById('modal-image');
     let close = document.querySelector('.close-button');
 
+    console.log(img.length);
+    console.log(typeof modal, modal);
 
     for (let i = 0; i < img.length; i++) {
         img[i].addEventListener('click', e => {

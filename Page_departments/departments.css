@@ -152,7 +152,7 @@ button-searsh:before {
     position: fixed;
     background: white;
     /*margin: 200px -800px;*/
-
+	cursor : pointer;
     font-family: 'Philosopher', sans-serif;
 
     color: #0059b4;
@@ -246,7 +246,8 @@ button.left:hover {
 }
 
 .icon img {
-    width: 450px;
+    
+    width:100% ;
     height: 220px;
     border-radius: 30px;
 }
@@ -261,14 +262,16 @@ button.left:hover {
 .Novast {
     font-family: 'Philosopher', sans-serif;
     padding: 20px 20px 30px 20px;
-    border-radius: 30px;
-    border: solid 2px black;
-    width: 500px;
-    height: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 256, 0.3);
+    width: 640px;
     margin-top: 20px;
     margin-left: 15px;
     position: relative;
-    left: 11px;
+    left: 100px;
+	height: auto;
+
 }
 
 .tools {
@@ -367,8 +370,8 @@ a.name-link:hover {
 }
 
 .string_comment {
-    position: absolute;
-    top: 530px;
+    position: relative;
+	margin-bottom: 20px;
 }
 
 string_comment.button_send {
@@ -485,8 +488,48 @@ div.post {
 
 .catletit {
     position: absolute;
-    left: 400px;
+    left: 0px;
     animation-iteration-count: infinite;
+    display: block;
 
+}
+
+.nazad {
+    position: absolute;
+    left: 650px;
+    animation-iteration-count: infinite;
+    display: none;
+
+}
+.more {display : none }
+.myBtn {
+	cursor : pointer;
+	opacity : 0.2;
+	background : white;
+	border-radius: 10px;
+}
+<<<<<<< HEAD
+.up-button{
+	border-radius:30px;
+	width:26px;
+	height:26px;
+	position:fixed;
+	top:90vh;
+	left:95vw;
+	background-color:#bbbbbb;
+	opacity:0.2;
+}
+.up-button:hover{
+	opacity:0.5;
+}
+.up-button:active{
+	opacity:0.7;
+}
+=======
+.myBtn:hover{
+	opacity : 0.5;
+	background : pink ;
+    border-radius: 10px;
+>>>>>>> 32910290454e5610b32b597b89bf1e5d3510e5f7
 
 }
