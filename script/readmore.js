@@ -1,16 +1,16 @@
-var btnText1 = document.querySelectorAll(".myBtn");
-		for (i=0; i<btnText1.length; i++){
+let btnText1 = document.querySelectorAll(".myBtn");
+for (let i = 0; i < btnText1.length; i++) {
 		btnText1[i].addEventListener('click', function(e){ myFunction(e) }, false);
     }
 	
 	function myFunction(e) {
-		
-		var target = e.target;
-		var novast = target.parentNode;
-		
-		var moreText = novast.querySelector(".more");
-		var dots = novast.querySelector(".dots");
-		var btnText = novast.querySelector(".myBtn");
+
+		let target = e.target;
+		let novast = target.parentNode;
+
+		let moreText = novast.querySelector(".more");
+		let dots = novast.querySelector(".dots");
+		let btnText = novast.querySelector(".myBtn");
 
 		if (dots.style.display === "none") {
 		dots.style.display = "inline";

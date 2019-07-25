@@ -1,6 +1,6 @@
 {
-upButton = document.querySelector('.up-button');
-shapka = document.querySelector('.shapka');
+	let upButton = document.querySelector('.up-button');
+	let shapka = document.querySelector('.shapka');
 console.log(upButton,'its me');
 upButton.addEventListener('click', e => {
 			console.log('event');
