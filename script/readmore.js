@@ -1,14 +1,15 @@
+
 let btnText1 = document.querySelectorAll(".myBtn");
-for (let i = 0; i < btnText1.length; i++) {
+for (i = 0; i < btnText1.length; i++) {
 		btnText1[i].addEventListener('click', function(e){ myFunction(e) }, false);
     }
 	
 	function myFunction(e) {
 
-		let target = e.target;
+        let target = e.target;
 		let novast = target.parentNode;
 
-		let moreText = novast.querySelector(".more");
+        let moreText = novast.querySelector(".more");
 		let dots = novast.querySelector(".dots");
 		let btnText = novast.querySelector(".myBtn");
 
@@ -22,4 +23,3 @@ for (let i = 0; i < btnText1.length; i++) {
 		moreText.style.display = "inline";
 		}
 	}
-	

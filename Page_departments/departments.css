@@ -495,7 +495,7 @@ div.post {
 
 }
 
-<<<<<<< HEAD
+
 .nazad {
     position: absolute;
     left: 650px;
@@ -510,7 +510,7 @@ div.post {
 	background : white;
 	border-radius: 10px;
 }
-<<<<<<< HEAD
+
 .up-button{
 	border-radius:30px;
 	width:26px;
@@ -527,15 +527,12 @@ div.post {
 .up-button:active{
 	opacity:0.7;
 }
-=======
+
 .myBtn:hover{
 	opacity : 0.5;
 	background : pink ;
     border-radius: 10px;
->>>>>>> 32910290454e5610b32b597b89bf1e5d3510e5f7
+
 
 }
-=======
-}
 
->>>>>>> c8e5ef1fcff0fe516ad69844175e14dbb618dae8

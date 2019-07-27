@@ -1,20 +1,16 @@
 .dark-change-border {
-
 }
 
 .dark-change-font {
-
 }
 
 .dark-change-text {
-
 }
 
 .text-in-menu {
     font-family: 'Philosopher', sans-serif;
     font-size: 30px;
     color: black;
-
 }
 
 .link-in-menu {
@@ -26,7 +22,6 @@ dialog.mini-window-in-angle {
     border-radius: 10%;
     border: solid 3px;
     border-color: #0059b4;
-
 }
 
 #close {
@@ -58,7 +53,6 @@ dialog.mini-window-in-angle {
     position: relative;
     left: 20px;
     top: 55px;
-
 }
 
 img.pic_with_text_near {
@@ -112,12 +106,10 @@ div.text-in {
     height: 850px;
     width: 850px;
     font-size: 30px;
-
 }
 
 .high {
     display: inline;
-
 }
 
 .semi-body {
@@ -126,7 +118,6 @@ div.text-in {
     position: absolute;
     left: 100px;
     top: 30px;
-
 }
 
 .department-body {
@@ -145,7 +136,6 @@ div.text-in {
 
 #menu {
     position: fixed;
-
 }
 
 .shapka {
@@ -331,4 +321,3 @@ button.search-top:before {
     animation-iteration-count: infinite;
     display: none;
 }
-
