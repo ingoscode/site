@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1d0cba-6ca5-4fbe-9954-8a27af1c4cc2" name="Default Changelist" comment="day 27">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="ff1d0cba-6ca5-4fbe-9954-8a27af1c4cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/smart_scrolling/smart_scrolling.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_departments/departments.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_departments/departments.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page_departments/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_departments/departments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_departments/profile_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_departments/profile_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_profile/buttons-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_profile/buttons-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_profile/profile_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_profile/profile_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_profile/profile_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_profile/profile_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_students/profile_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_students/profile_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_students/students_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_students/students_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization/authorization.html" beforeDir="false" afterPath="$PROJECT_DIR$/authorization/authorization.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/catlet.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/catlet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/readmore.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/readmore.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,19 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>font</find>
-      <find>corp</find>
-      <find>goo</find>
-      <find>var</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>let</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -75,12 +54,6 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="695" />
-  </component>
   <component name="ProjectId" id="1OaqsTgsH8K7UXJBrtJlKEfE7l8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -96,7 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +98,9 @@
       <workItem from="1563996306593" duration="874000" />
       <workItem from="1564000496193" duration="6171000" />
       <workItem from="1564226192049" duration="37000" />
-      <workItem from="1564226270372" duration="210000" />
+      <workItem from="1564226270372" duration="262000" />
+      <workItem from="1564226554236" duration="2457000" />
+      <workItem from="1564244013770" duration="14680000" />
     </task>
     <task id="LOCAL-00001" summary="'full'">
       <created>1563989637596</created>
@@ -183,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564078960339</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day 27">
+      <created>1564226511758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564226511758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,5 +219,17 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/authorization/graph.js</url>
+          <line>147</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
