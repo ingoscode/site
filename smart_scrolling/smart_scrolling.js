@@ -22,9 +22,10 @@ function push_news(event) {
         request.open('GET', requestURL);
         request.responseType = 'json';
         request.send();
-        request.onload = function () {
+        request.onload = setTimeout(function () {
             let superHeroes = request.response;
             console.log(superHeroes);
+
             for (let k = 0; k < 3; k++) {
 
                 let clonedNode = document.getElementById("example_1").cloneNode(true);
@@ -60,11 +61,11 @@ function push_news(event) {
 
             }
 
+        }, 15);
 
-        };
 
-        setTimeout(function () {
-        }, 1500);
+        /*setTimeout(function () {
+        }, 1500);*/
 
 
     }

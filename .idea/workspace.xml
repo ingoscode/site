@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff1d0cba-6ca5-4fbe-9954-8a27af1c4cc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart_scrolling/smart_scrolling.js" beforeDir="false" afterPath="$PROJECT_DIR$/smart_scrolling/smart_scrolling.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1564226554236" duration="2457000" />
       <workItem from="1564244013770" duration="14991000" />
       <workItem from="1564355377766" duration="76000" />
-      <workItem from="1564358322050" duration="3518000" />
+      <workItem from="1564358322050" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="'full'">
       <created>1563989637596</created>
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564354354560</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="smart_scrolling_in_progress">
+      <created>1564361910130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564361910130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
