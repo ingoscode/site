@@ -2,7 +2,7 @@
 window.onscroll = function () {
     let scrolled = window.pageYOffset || document.documentElement.scrollTop;
 
-    let scrollCoef = 0.0017;
+    let scrollCoef = 0.0001;
 
     /*
     console.log(scrolled)
