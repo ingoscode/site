@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff1d0cba-6ca5-4fbe-9954-8a27af1c4cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smart_scrolling/smart_scrolling.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_departments/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_departments/departments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_scrolling/smart_scrolling.js" beforeDir="false" afterPath="$PROJECT_DIR$/smart_scrolling/smart_scrolling.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,11 @@
       <list>
         <option value="kishik &lt;kishik.maxim@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,7 +105,9 @@
       <workItem from="1564226192049" duration="37000" />
       <workItem from="1564226270372" duration="262000" />
       <workItem from="1564226554236" duration="2457000" />
-      <workItem from="1564244013770" duration="14680000" />
+      <workItem from="1564244013770" duration="14991000" />
+      <workItem from="1564355377766" duration="76000" />
+      <workItem from="1564358322050" duration="3518000" />
     </task>
     <task id="LOCAL-00001" summary="'full'">
       <created>1563989637596</created>
@@ -165,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564226511758</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="smart_scrolling_in_progress">
+      <created>1564354276814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564354276814</updated>
+    </task>
+    <task id="LOCAL-00011" summary="smart_scrolling_in_progress">
+      <created>1564354354560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564354354560</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +236,8 @@
     <MESSAGE value="lang all pages + profile style-&gt;css_file" />
     <MESSAGE value="evening 25" />
     <MESSAGE value="day 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 27" />
+    <MESSAGE value="smart_scrolling_in_progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="smart_scrolling_in_progress" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -225,8 +247,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/authorization/graph.js</url>
-          <line>147</line>
-          <properties lambdaOrdinal="-1" />
+          <line>128</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
