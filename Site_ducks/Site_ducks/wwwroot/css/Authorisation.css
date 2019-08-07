@@ -1,0 +1,54 @@
+﻿
+.my-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+table.goodback {
+    background-color: white;
+    border: solid 4px #0059b4;
+    border-radius: 5px;
+    font-family: 'Philosopher', sans-serif;
+    color: #0059b4;
+}
+
+
+table.position {
+    position: relative;
+    margin: 100px 500px;
+}
+
+.catletit {
+    position: absolute;
+    left: 0px;
+    animation-iteration-count: infinite;
+    display: block;
+}
+
+.nazad {
+    position: absolute;
+    left: 1600px;
+    animation-iteration-count: infinite;
+    display: none;
+}
+
+.dark-btn-position-auth {
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+}
+
+#canvas {
+    z-index: 1;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+}
+
+.on-canvas {
+    position: relative;
+    z-index: 2;
+}
+

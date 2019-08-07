@@ -1,0 +1,712 @@
+﻿.shapka {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#search {
+
+    display: flex;
+
+
+}
+
+
+//window
+
+dialog.mini-window-in-angle {
+    border-radius: 10%;
+    border: solid 3px;
+    border-color: #0059b4;
+}
+
+#close {
+    position: relative;
+    top: 110%;
+    left: 60%;
+}
+
+ 
+.open-modal {
+    display: block;
+    cursor: pointer;
+
+}
+
+.open-modal img {
+    height: inherit;
+    width: inherit;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.modal-content {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    display: block;
+    border-radius: 15px;
+    background-color: yellow;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.modal-content img {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    display: block;
+    background-color: yellow;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.close-button:hover {
+    opacity: 0.8;
+}
+
+.close-button:active {
+    opacity: 0.5;
+}
+
+
+
+
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+.dbotton {
+    background: white;
+    border: none;
+
+    height: 100px;
+    position: absolute;
+}
+
+.ramka {
+    display: inline-block;
+    background: white;
+    border: solid 2px #0059b4;
+
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.portalst {
+    position: absolute;
+    margin: 100px 100px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    color: #0059b4;
+}
+
+img.pic_with_text_near {
+    display: inline;
+    /*
+				width: 60;
+				height: 60;
+                    */
+    border: 4px #0059b4 solid;
+    border-radius: 5px;
+    padding: 1px
+}
+
+table.table_name_date {
+    display: inline;
+}
+
+div.name_date {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: #0059b4;
+}
+
+.accaunt-flex {
+
+
+    position: absolute;
+
+    left: 1600px;
+    top: 30px;
+
+}
+
+img.pic_with_text_near1 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 3px #0059b4 solid;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+
+div.big-name1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #0059b4;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.phil {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.main_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    position: absolute;
+    width: 300px;
+    left: 900px;
+    top: 50px;
+    /*   margin: 10px 400px; */
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 4px solid #0059b4;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    color: #9E9C9C;
+}
+
+#button-searsh {
+    position: relative;
+    right: 5px;
+    width: 44px;
+    height: 42px;
+    border: 4px solid #0059b4;
+    border-radius: 5px;
+    background: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background-image: url("../pictures/lupa.png");
+}
+
+button-searsh:before {
+
+    font-size: 16px;
+    color: white;
+}
+
+
+#menu, #menu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#menu {
+    font-size: 20px;
+    position: fixed;
+    background: white;
+    /*margin: 200px -800px;*/
+	cursor : pointer;
+    font-family: 'Philosopher', sans-serif;
+
+    color: #0059b4;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#menu ul li {
+    margin: 5px 50px;
+    padding: 5px;
+}
+
+#menu ul li:hover {
+    background: #0059b4;
+    color: white;
+}
+
+#menu.shrift {
+    font-family: 'Philosopher', sans-serif;
+
+    color: #0059b4;
+}
+
+
+.after_hat {
+
+    padding-left: 480px;
+    padding-top: 180px;
+}
+
+
+.corp_img {
+    margin-left: 5px;
+    height: 300px;
+}
+
+
+.main_picture {
+
+    width: 880px;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.image_slider {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4px;
+}
+
+.news_announce {
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #0059b4;
+    width: 880px;
+}
+
+.news_announce h2 {
+
+}
+
+
+img.middle {
+    width: 880px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.5)
+}
+
+button.left {
+    border-radius: 20px;
+    background-color: #00BFFF;
+}
+
+button.left:hover {
+    background-color: #800080;
+}
+
+
+
+.icon img {
+    
+    width:100% ;
+    height: 220px;
+    border-radius: 30px;
+}
+
+.text {
+    padding-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 440px;
+}
+
+.Novast {
+    font-family: 'Philosopher', sans-serif;
+    padding: 20px 20px 30px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 256, 0.3);
+    width: 640px;
+    margin-top: 20px;
+    margin-left: 15px;
+    position: relative;
+    left: 100px;
+	height: auto;
+
+}
+
+.tools {
+    margin: 10px;
+}
+
+img.pic_with_text_near {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 3px #0059b4 solid;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+
+div.big-name {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #0059b4;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+
+table.table_name_date {
+    display: inline;
+}
+
+div.name_date {
+    font-size: 15px;
+    color: #0059b4;
+}
+
+button.bird {
+    position: relative;
+    display: inline;
+    background-color: red;
+}
+
+a.name-link {
+    color: #0059b4;
+    text-decoration: none;
+}
+
+a.name-link:visited {
+    color: black;
+}
+
+a.name-link:hover {
+    color: #0059b4;
+}
+
+.hat {
+    margin-left: 15px;
+}
+
+
+
+.clock {
+    font-size: 70%;
+    padding-left: 20px;
+}
+
+
+
+#menu, #menu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#menu {
+    opacity: 1;
+    position: fixed;
+    background: white;
+    top: 200px;
+    font-family: 'Philosopher', sans-serif;
+    color: #0059b4;
+    font-size: 30px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#menu ul li {
+    margin: 5px 50px;
+    padding: 5px;
+}
+
+#menu ul li:hover {
+    background: #0059b4;
+    color: white;
+}
+
+#menu.shrift {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: #0059b4;
+}
+
+
+.gormenu, .gormenu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.gormenu {
+
+    background: white;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: #0059b4;
+    border: 3px solid #0059b4;
+    border-radius: 0px 0px 7px 7px;
+    width: 880px;
+}
+
+.gormenu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gormenu ul li {
+    margin: 5px 50px;
+    padding: 5px;
+}
+
+.gormenu ul li:hover {
+    background: pink;
+    color: white;
+}
+
+.gormenu.shrift {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: #0059b4;
+}
+
+#corps_ul {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.catletit {
+    position: absolute;
+    left: 0px;
+    animation-iteration-count: infinite;
+    display: block;
+
+}
+
+
+.nazad {
+    position: absolute;
+    left: 650px;
+    animation-iteration-count: infinite;
+    display: none;
+
+}
+.more {display : none }
+.myBtn {
+	cursor : pointer;
+	opacity : 0.2;
+	background : white;
+	border-radius: 10px;
+}
+
+.up-button{
+	border-radius:30px;
+	width:26px;
+	height:26px;
+	position:fixed;
+	top:90vh;
+	left:95vw;
+	background-color:#bbbbbb;
+	opacity:0.2;
+}
+.up-button:hover{
+	opacity:0.5;
+}
+.up-button:active{
+	opacity:0.7;
+}
+
+.myBtn:hover{
+	opacity : 0.5;
+	background : pink ;
+    border-radius: 10px;
+
+
+}
+.menu-btn {
+    background: url("../pictures/menu.svg") no-repeat center;
+    font-size: 16px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 20px;
+    top: 55px;
+
+}
+
+
+.dark-change-border {
+
+}
+
+.dark-change-font {
+
+}
+
+.dark-change-text {
+
+}
+
+.text-in-menu {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: black;
+
+}
+
+.link-in-menu {
+    text-decoration: none;
+    color: #0059b4;
+}
+
+dialog.mini-window-in-angle {
+    border-radius: 10%;
+    border: solid 3px;
+    border-color: #0059b4;
+
+}
+
+#close {
+    position: relative;
+    top: 110%;
+    left: 60%;
+}
+
+.dark-theme {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 2px black;
+    border-radius: 10%;
+    border-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-text {
+    position: relative;
+    padding: 8px;
+}
+
+
+
+
+.button-cover:before {
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+}
+
+.button-cover, .knobs, .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.button.r, .button.r .layer {
+    border-radius: 100px;
+}
+
+
+
+/* Button 1 */
+#button-1 .knobs:before {
+    content: 'NO';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #0059b4;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before {
+    content: 'YES';
+    color: white;
+    left: 42px;
+    background-color: black; /*цвет круга yes*/
+}
+
+#button-1 .checkbox:checked ~ .layer {
+    background-color: gray; /* цвет овала yes*/
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer {
+    transition: 0.3s ease all;
+}
+

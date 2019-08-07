@@ -1,0 +1,432 @@
+﻿
+.catletit {
+    position: absolute;
+    animation-iteration-count: infinite;
+    display: block;
+}
+
+.nazad {
+    position: absolute;
+    left: 650px;
+    animation-iteration-count: infinite;
+    display: none;
+}
+
+
+
+#left_menu a, #main_logo a, #student_portal, #corps_ul a {
+    text-decoration: none;
+    color: #0059b4
+}
+
+#left_menu a:hover {
+
+    color: white;
+}
+
+.menu, .menu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.menu {
+    position: absolute;
+    background: white;
+    top: 200px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: #0059b4;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul li {
+    margin: 5px 50px;
+    padding: 5px;
+}
+
+.menu ul li:hover {
+    background: #0059b4;
+    color: white;
+}
+
+.menu.shrift {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: Blue;
+}
+
+
+.dbotton {
+    background: white;
+    border: none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+}
+
+
+
+form {
+    position: absolute;
+    width: 300px;
+    left: 900px;
+    top: 50px;
+}
+
+input {
+    width: 100%;
+    height: 32px;
+    padding-left: 10px;
+    border: 4px solid #0059b4;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    color: #9E9C9C;
+}
+
+button.search-top {
+    position: absolute;
+    top: 0;
+    left: 276px;
+    width: 42px;
+    height: 42px;
+    border: 4px solid #0059b4;
+    background: url('../images/lupa.png') no-repeat center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+    button.search-top:before {
+        background: url('../images/lupa.png') no-repeat center;
+        font-size: 16px;
+        color: white;
+    }
+
+
+
+.portalst {
+    position: absolute;
+    margin: 100px 100px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    color: #0059b4;
+}
+
+.shapka {
+    display: flex;
+    flex-direction: row;
+}
+
+.accaunt-flex {
+    position: absolute;
+    left: 1600px;
+    top: 30px;
+}
+
+img.pic_with_text_near1 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 3px #0059b4 solid;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+
+div.big-name1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #0059b4;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+
+dialog.mini-window-in-angle {
+    border-radius: 10%;
+    border: solid 3px;
+    border-color: #0059b4;
+}
+
+#close {
+    position: relative;
+    top: 110%;
+    left: 60%;
+}
+
+
+
+.calend{
+    font-family: 'Philosopher', sans-serif;
+    color: #0059b4;
+    position: absolute;
+    left: 700px;
+    font-size: 30px;
+    top: 350px;
+}
+
+.main_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dark-change-border {
+
+}
+
+.dark-change-font {
+
+}
+
+.dark-change-text {
+
+}
+
+.text-in-menu {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    color: black;
+
+}
+
+.link-in-menu {
+    text-decoration: none;
+    color: #0059b4;
+}
+
+dialog.mini-window-in-angle {
+    border-radius: 10%;
+    border: solid 3px;
+    border-color: #0059b4;
+
+}
+
+#close {
+    position: relative;
+    top: 110%;
+    left: 60%;
+}
+
+.dark-theme {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 2px black;
+    border-radius: 10%;
+    border-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-text {
+    position: relative;
+    padding: 8px;
+}
+
+.menu-btn {
+    background: url('../images/menu.svg') no-repeat center;
+    font-size: 16px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 20px;
+    top: 55px;
+}
+
+
+.open-modal {
+    display: block;
+    cursor: pointer;
+
+}
+
+.open-modal img {
+    height: inherit;
+    width: inherit;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.modal-content {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    display: block;
+    border-radius: 15px;
+    background-color: yellow;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.modal-content img {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    display: block;
+    background-color: yellow;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.close-button:hover {
+    opacity: 0.8;
+}
+
+.close-button:active {
+    opacity: 0.5;
+}
+
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+/* Button 1 */
+#button-1 .knobs:before {
+    content: 'NO';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #0059b4;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before {
+    content: 'YES';
+    color: white;
+    left: 42px;
+    background-color: black; /*цвет круга yes*/
+}
+
+#button-1 .checkbox:checked ~ .layer {
+    background-color: gray; /* цвет овала yes*/
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer {
+    transition: 0.3s ease all;
+}
+
+
+.button-cover:before {
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+}
+
+.button-cover, .knobs, .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.button.r, .button.r .layer {
+    border-radius: 100px;
+}
+
+.main_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+
+
+
+.up-button{
+	border-radius:30px;
+	width:26px;
+	height:26px;
+	position:fixed;
+	top:90vh;
+	left:95vw;
+	background-color:#bbbbbb;
+	opacity:0.2;
+}
+.up-button:hover{
+	opacity:0.5;
+}
+.up-button:active{
+	opacity:0.7;
+}

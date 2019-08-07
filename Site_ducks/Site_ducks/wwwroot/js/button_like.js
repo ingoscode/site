@@ -1,0 +1,17 @@
+
+ window.addEventListener('DOMContentLoaded', function () {
+                let likes = document.querySelectorAll('.button_like');
+                [].forEach.call(likes,function (elem) {
+                      elem.addEventListener('click', function (event) {
+                        event.preventDefault()
+                    elem.closest(".button_like").classList.toggle("open")
+
+
+                });
+
+            });
+
+ });
+
+
+

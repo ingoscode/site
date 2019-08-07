@@ -1,0 +1,96 @@
+
+.button_send {
+    border: none;
+    position: relative;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.button_send:hover {
+    background-color: RoyalBlue;
+}
+
+div.post {
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 2px black;
+    width: 500px;
+    height: 90px;
+    padding-bottom: 30px;
+}
+
+.string {
+    display: flex;
+
+}
+
+.text-near-face {
+    margin-left: 10px;
+    width: 300px;
+}
+
+.student-list {
+	position: absolute;
+	top: 250px;
+	left: 700px;
+    width: 450px;
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+
+.parsing {
+
+    display: flex;
+
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.about-students {
+    border-radius: 10px;
+    border: 4px solid #0059b4;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+	padding-top:5px;
+	text-align:center;
+}
+
+.id {
+    display: flex;
+}
+
+button.all-students-page {
+    top: 0;
+    width: 42px;
+    height: 42px;
+    border: 4px solid #0059b4;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+img.pic_with_text_near {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 3px #0059b4 solid;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+
+.search-button {
+     background-image:url("../pictures/lupa.png");
+}
+
+
+
+
+.button_settings {
+    top: 10px;
+    padding:0px;
+
+}

@@ -1,9 +1,0 @@
-﻿#left_menu a, #main_logo a, #student_portal, #corps_ul a {
-    text-decoration: none;
-    color: #0059b4
-}
-
-#left_menu a:hover {
-
-    color: white;
-}
