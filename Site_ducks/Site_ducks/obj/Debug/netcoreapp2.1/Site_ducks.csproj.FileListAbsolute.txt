@@ -180,7 +180,6 @@ C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Home\StudentsPage.g.cshtml.cs
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
-C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
@@ -190,3 +189,8 @@ C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Site_ducks.dll
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Site_ducks.pdb
 C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Site_ducks.csproj.CopyComplete
+C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutIndex.g.cshtml.cs
+C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutProfilePage.g.cshtml.cs
+C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutStudentsPage.g.cshtml.cs
+C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutDepartments.g.cshtml.cs
+C:\Users\Evgeny\Desktop\github\site\Site_ducks\Site_ducks\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutAuthorisation.g.cshtml.cs

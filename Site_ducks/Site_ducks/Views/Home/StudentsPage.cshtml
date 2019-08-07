@@ -1,301 +1,284 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+    Layout = "_LayoutStudentsPage";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
-    <link href="~/css/students_page.css" rel="stylesheet" />
-    <link href="~/css/shapka.css" rel="stylesheet" />
-    <title>Стажеры</title>
-</head>
-<body>
-    <div class="shapka">
-        <a href="index.html" id="main_logo">
-            <img class="dbotton dark-change-background-menu"
-                 src="~/images/logofot.png">
-        </a>
-        <p class="portalst dark-change-text">
-            <a href="index.html" id="student_portal"> <font>Портал стажера</font></a>
-        </p>
-        <form>
-            <input class="dark-change-border" placeholder="Search..." type="text">
-            <button class="submit button-search dark-change-border search-top"></button>
-        </form>
-        <img src="~/images/catletit.png" width=250 class="catletit">
-        <img src="~/images/catletitnazad.png" width=250 class="nazad">
 
-        <div class="accaunt-flex">
-            <div class="main_profile">
-                <a href="index.html">
-                    <img class="pic_with_text_near1 dark-change-border" src="~/images/kianu.jfif">
-                </a>
-                <a href="Page_profile/profile_page.html" style="text-decoration: none;">
-                    <div class="big-name1 dark-change-text">Kianu</div>
-                </a>
-                <button class="menu-btn"></button>
-            </div>
-            <dialog class="mini-window-in-angle">
-                <p><a class="text-in-menu link-in-menu" href="Page_profile/profile_page.html">Настройки</a></p>
-                <p><a class="text-in-menu link-in-menu" href="Page_profile/profile_page.html">Выход</a></p>
-                <p>
-                    <div class="dark-theme">
-                        <div class="dark-text text-in-menu">Тёмная тема</div>
-                        <div class="toggle-button-cover">
-                            <div class="button r" id="button-1">
-                                <input type="checkbox" class="checkbox">
-                                <div class="knobs"></div>
-                                <div class="layer"></div>
-                            </div>
+<div class="shapka">
+    <a href="index.html" id="main_logo">
+        <img class="dbotton dark-change-background-menu"
+                src="~/images/logofot.png">
+    </a>
+    <p class="portalst dark-change-text">
+        <a href="index.html" id="student_portal"> <font>Портал стажера</font></a>
+    </p>
+    <form>
+        <input class="dark-change-border" placeholder="Search..." type="text">
+        <button class="submit button-search dark-change-border search-top"></button>
+    </form>
+    <img src="~/images/catletit.png" width=250 class="catletit">
+    <img src="~/images/catletitnazad.png" width=250 class="nazad">
+
+    <div class="accaunt-flex">
+        <div class="main_profile">
+            <a href="index.html">
+                <img class="pic_with_text_near1 dark-change-border" src="~/images/kianu.jfif">
+            </a>
+            <a href="Page_profile/profile_page.html" style="text-decoration: none;">
+                <div class="big-name1 dark-change-text">Kianu</div>
+            </a>
+            <button class="menu-btn"></button>
+        </div>
+        <dialog class="mini-window-in-angle">
+            <p><a class="text-in-menu link-in-menu" href="Page_profile/profile_page.html">Настройки</a></p>
+            <p><a class="text-in-menu link-in-menu" href="Page_profile/profile_page.html">Выход</a></p>
+            <p>
+                <div class="dark-theme">
+                    <div class="dark-text text-in-menu">Тёмная тема</div>
+                    <div class="toggle-button-cover">
+                        <div class="button r" id="button-1">
+                            <input type="checkbox" class="checkbox">
+                            <div class="knobs"></div>
+                            <div class="layer"></div>
                         </div>
                     </div>
-                </p>
-                <button id="close"><img src="~/images/X.svg"></button>
-            </dialog>
-        </div>
-        <div class="menu dark-change-background-menu dark-change-text">
-            <nav id="menu">
-                <ul id="left_menu">
-                    <li><a class="dark-change-text class='dynamicRouter' href="Page_departments/departments.html">Отделы</a></li>
-                    <li>Форум</li>
-                    <li>Впечатления</li>
-                    <li>Рабочие истории</li>
-                    <li>Полезная информация</li>
-                    <li>Руководство</li>
-                    <li>Партнеры</li>
-                    <li>Контакты</li>
-                </ul>
-                <img src="~/images/cat.png" width=270 />
-            </nav>
-        </div>
+                </div>
+            </p>
+            <button id="close"><img src="~/images/X.svg"></button>
+        </dialog>
     </div>
+    <div class="menu dark-change-background-menu dark-change-text">
+        <nav id="menu">
+            <ul id="left_menu">
+                <li><a class="dark-change-text dynamicRouter" href="Page_departments/departments.html">Отделы</a></li>
+                <li>Форум</li>
+                <li>Впечатления</li>
+                <li>Рабочие истории</li>
+                <li>Полезная информация</li>
+                <li>Руководство</li>
+                <li>Партнеры</li>
+                <li>Контакты</li>
+            </ul>
+            <img src="~/images/cat.png" width=270 />
+        </nav>
+    </div>
+</div>
 
-    <div id="content">
-        <div class="student-list ">
-            <div class="parsing">
-                <div class="text about-students dark-change-border dark-change-text">Все стажеры</div>
-                <button class="button_settings all-students-page dark-change-border">
-                    <img src="~/images/downArrow.png" />
-                </button>
-            </div>
-
-
-
-            <div class="search search-big">
-                <input class=" student-search dark-change-border" placeholder="Введите имя стажера">
-                </input>
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="Page_profile/profile_page.html">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
-            <div class="id string">
-                <a class="fotoclass" href="http://google.com">
-                    <img class="pic_with_text_near dark-change-border"
-                         src="~/images/kianu.jfif" />
-                </a>
-                <div class="text-near-face dark-change-text">
-                    <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
-                </div>
-                <button class="button_send id-button all-students-page dark-change-border">
-                    <img src="~/images/flight.png" />
-                </button>
-
-            </div>
-            <hr>
+<div id="content">
+    <div class="student-list ">
+        <div class="parsing">
+            <div class="text about-students dark-change-border dark-change-text">Все стажеры</div>
+            <button class="button_settings all-students-page dark-change-border">
+                <img src="~/images/downArrow.png" />
+            </button>
         </div>
-    </div>
 
-    <div class='up-button'>
-        <img src='~/images/up.svg'>
-    </div>
 
-    <script src="~/js/studlistfotojson.js"></script>
-    <script src="~/js/studlistnamejson.js"></script>
-    <script src="~/js/modal_windows.js"></script>
-    <script src="~/js/catlet.js"></script>
-    <script src="~/js/upButton.js"></script>
-</body>
-</html>
+
+        <div class="search search-big">
+            <input class=" student-search dark-change-border" placeholder="Введите имя стажера">
+            </input>
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="Page_profile/profile_page.html">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+        <div class="id string">
+            <a class="fotoclass" href="http://google.com">
+                <img class="pic_with_text_near dark-change-border"
+                        src="~/images/kianu.jfif" />
+            </a>
+            <div class="text-near-face dark-change-text">
+                <a class="namest" href="http://google.com">Ольга Донцова <br> отдел IT </a>
+            </div>
+            <button class="button_send id-button all-students-page dark-change-border">
+                <img src="~/images/flight.png" />
+            </button>
+
+        </div>
+        <hr>
+    </div>
+</div>
+
+<div class='up-button'>
+    <img src='~/images/up.svg'>
+</div>
+
+    

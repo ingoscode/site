@@ -55,18 +55,17 @@ div.text-in {
 }
 
 
+
+
+
+
 .information {
     position: absolute;
     left: 500px;
     top: 200px;
 }
 
-img.pic_with_text_near {
-    display: inline;
-    border: 7px #0059b4 solid;
-    border-radius: 100px;
-    padding: 3px
-}
+
 
  
 img.pic_with_text_near_big {

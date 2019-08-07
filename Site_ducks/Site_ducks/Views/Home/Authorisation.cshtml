@@ -1,26 +1,10 @@
-﻿@{
-    Layout = null;
+﻿@model Site_ducks.Models.AuthorisationData;
+@{
+    Layout = "_LayoutAuthorisation";
 }
-<!DOCTYPE html>
-
-<html lang="ru">
-<head>
-    <meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
-    <script src="~/js/graph.js"></script>
-    <script src="~/js/button-top-auth.js"></script>
-    <script src="~/js/OnloadAuthorisation.js"></script>
-    <title>Authorization</title>
-    <link href="~/css/buttons-style-auth.css" rel="stylesheet" />
-    
-    <link href="~/css/Authorisation.css" rel="stylesheet" />
-</head>
-<body>
-
-<canvas class="position" height=1080 id="canvas" width=1920>
 
 
-</canvas>
+<canvas class="position" height=1080 id="canvas" width=1920></canvas>
 <div class="on-canvas">
     <div class="dark-theme dark-btn-position-auth">
         <div class="dark-text text-in-menu">Тёмная тема</div>
@@ -37,33 +21,33 @@
     </div>
 
     <div><img height="350" src="~/images/cat_and_flag.png" width="400"></div>
+    <form asp-action="SendAuthorisationData" method="post">
+        <table class="goodback position my-flex-container dark-change-border dark-change-background-menu dark-change-text">
+            <tr>
+                <td> Authorization</td>
+            </tr>
+            <tr>
 
-    <table class="goodback position my-flex-container dark-change-border dark-change-background-menu dark-change-text">
-        <tr>
-            <td> Authorization</td>
-        </tr>
-        <tr>
+                <td><label asp-for="Login"><b>Login</b></label></td>
+                <td><input placeholder="Enter Username" required type="text" asp-for="Login" /></td>
+            </tr>
 
-            <td><label for="uname"><b>Login</b></label></td>
-            <td><input name="uname" placeholder="Enter Username" required type="text"></td>
-        </tr>
+            <tr>
 
-        <tr>
+                <td><label asp-for="Password"><b>Password</b></label></td>
+                <td><input  placeholder="Enter Password" required type="password" asp-for="Password" /></td>
 
-            <td><label for="psw"><b>Password</b></label></td>
-            <td><input name="psw" placeholder="Enter Password" required type="password"></td>
-
-        </tr>
-        <tr>
-            <td style="text-align: center"><a href="../index.html"><input type="submit" value="Войти"></a></td>
-        </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center"><a href="../index.html"><input type="submit" value="Войти"></a></td>
+            </tr>
 
 
-    </table>
+        </table>
+    </form>
+
+    
     <img class="catletit" src="~/images/catletit.png" width=250>
     <img class="nazad" src="~/images/catletitnazad.png" width=250>
 </div>
 
-
-</body>
-</html>
